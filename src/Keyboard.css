@@ -1,0 +1,29 @@
+.keyboard {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.keyboard-key {
+    font-size: 3em;
+    flex: 1 1 calc(100% / 13 - 0.4em);
+    outline: 0.08em solid silver;
+    margin: 0.2em;
+    display: flex;
+    cursor: default;
+    min-width: 45px;
+    user-select: none;
+}
+
+.keyboard-key.correct {
+    background-color: rgba(147, 236, 57, 0.822);
+}
+
+.keyboard-key.incorrect {
+    background-color: silver;
+}
+
+.keyboard-key > .symbol {
+    margin: auto;
+}
