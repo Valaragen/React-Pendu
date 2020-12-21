@@ -16,3 +16,43 @@
   font-size: 5em;
   display: inline-block;
 }
+
+.info-wrapper {
+  margin-top: 5px;
+  width: 100%;
+  font-size: x-large;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.btn {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.btn-add-player {
+  transition-duration: 0.4s;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 20px;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 1.2em;
+  color: rgb(255, 255, 255);
+  background-color: rgba(78, 135, 158, 1.0);
+  border: none;
+  box-shadow: 4px 6px 0px 0px #97bfd0;
+}
+
+.btn-add-player:hover, .btn-add-player:focus {
+  cursor: pointer;
+  background-color: rgb(38, 113, 143);
+}
+
+.hangman-img {
+  height: 300px;
+}
